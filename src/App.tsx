@@ -8,6 +8,9 @@ import Envelope from './components/Envelope';
 import Countdown from './components/Countdown';
 import DressCode from './components/DressCode';
 import RSVPForm from './components/RSVPForm';
+import waxSealUrl from './assets/images//kp_floral_crest_1783875343548.jpg';
+import floralBgUrl from './assets/images/kp_floral_wallpaper_1783875359536.jpg';
+import severinSeaLodgeUrl from './assets/images/buraha_zenoni_resort_1783874401777.jpg';
 
 
 export default function App() {
@@ -18,11 +21,6 @@ export default function App() {
 
   // Golden standard background audio
   const canonDUrl = 'https://upload.wikimedia.org/wikipedia/commons/c/c6/Canon_in_D_Major_%28ISRC_USUAN1100301%29.mp3';
-
-  // Paths to generated assets
-  const waxSealUrl = '/src/assets/images/kp_floral_crest_1783875343548.jpg';
-  const floralBgUrl = '/src/assets/images/kp_floral_wallpaper_1783875359536.jpg';
-  const severinSeaLodgeUrl = '/src/assets/images/buraha_zenoni_resort_1783874401777.jpg';
 
   // Toggle background music
   const toggleMusic = () => {
