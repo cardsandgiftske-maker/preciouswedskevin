@@ -288,7 +288,7 @@ export default function RSVPForm() {
             <form onSubmit={handleAdminLogin} className="max-w-sm mx-auto space-y-4 py-6 font-sans">
               <p className="text-xs text-stone-500 text-center mb-4">
                 Enter the couple's passcode to check RSVPs. <br />
-                <span className="italic font-semibold text-[#d95d16]">Hint: preciousandkelvin2026</span>
+                <span className="italic font-semibold text-[#d95d16]">Hint: 2026</span>
               </p>
               {error && (
                 <div className="text-xs bg-rose-50 text-rose-600 p-2.5 rounded text-center border border-rose-100">
